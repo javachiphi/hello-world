@@ -1,0 +1,119 @@
+/* HeroSection.css */
+
+.section-container {
+    align-items: center;
+    background-color: #1a7431;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 100px;
+    height: min-content;
+    justify-content: center;
+    min-height: 800px;
+    overflow: visible;
+    padding: 100px;
+    position: relative;
+    width: 100%;
+}
+
+.hero-section {
+    padding: 50px; /* Adjust as necessary */
+    text-align: center;
+  }
+  
+  .hero-title {
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    font-family: "Unbounded", "Unbounded Placeholder", sans-serif;
+    color: #ffffff;
+    font-size: 164.0856268318835px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    text-align: center;
+  }
+  
+  .hero-description {
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 600px;
+    font-family: "Spline Sans Mono", monospace;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+
+  
+  .explore-button {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded edges for the button */
+    font-weight: bold;
+  }
+  
+  .hero-image {
+    margin-top: 30px;
+  }
+  
+  .hero-image img {
+    max-width: 100%; /* Makes sure the image scales and doesn't overflow */
+    border-radius: 30px;
+  }
+
+  
+
+/* Existing CSS... */
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .hero-title {
+      font-size: 80px; /* reduce the font size */
+    }
+  
+    .section-container {
+      padding: 50px; /* reduce the padding */
+      gap: 50px; /* reduce the gap */
+    }
+  
+    .hero-section {
+      padding: 30px; /* reduce the padding */
+    }
+  }
+  
+  /* Media query for mobile */
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 50px; /* even smaller font size for mobile */
+    }
+  
+    .section-container {
+      padding: 30px; /* further reduce the padding for mobile */
+      gap: 30px; /* further reduce the gap */
+    }
+  
+    .hero-description {
+      font-size: 16px; /* smaller font for the description */
+    }
+  
+    .explore-button {
+      padding: 8px 16px; /* reduce button padding */
+    }
+  
+    .hero-image img {
+      border-radius: 15px; /* reduce border-radius */
+    }
+  }
+  
