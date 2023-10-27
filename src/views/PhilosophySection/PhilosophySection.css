@@ -77,3 +77,40 @@
     line-height: 1.2;
     text-align: left;
 }
+
+
+/* Existing CSS... */
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  
+    .philosophy-container {
+      padding: 50px; /* reduce the padding */
+    }
+  
+    .philosophy-header {
+      font-size: 14px; /* reduce the font size */
+    }
+  
+    .philosophy-content {
+      font-size: 24px; /* reduce the font size */
+      max-width: 100%; /* let the content use full width */
+    }
+  }
+  
+  /* Media query for mobile */
+  @media (max-width: 480px) {
+    
+    .philosophy-container {
+      padding: 30px; /* further reduce the padding for mobile */
+    }
+  
+    .philosophy-header {
+      font-size: 12px; /* even smaller font size for mobile */
+    }
+  
+    .philosophy-content {
+      font-size: 20px; /* even smaller font size for mobile */
+    }
+  }
+  
