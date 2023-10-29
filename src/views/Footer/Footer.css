@@ -1,0 +1,38 @@
+/* Footer.css */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #b7efc5;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    padding: 100px;
+    padding-top: 0px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
