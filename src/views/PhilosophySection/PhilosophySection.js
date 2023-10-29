@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container} from '@mui/material';
 import './PhilosophySection.css';
 
 const PhilosophySection = () => {
