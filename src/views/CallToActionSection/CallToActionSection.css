@@ -9,8 +9,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    height: 100vh; /* Adjust this as per your requirement */
-    padding: 100px;
+    padding: 50px;
     position: relative;
     width: 100%;
 }
@@ -53,3 +52,4 @@
     color: white;
     font-family: monospace;
 }
+
