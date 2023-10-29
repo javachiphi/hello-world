@@ -16,7 +16,7 @@ function Footer() {
       </div>
       <div className="footer-section">
         <h6>Connect</h6>
-        <p>FacebookIcon</p>
+        <p>Facebook</p>
         <p>Instagram</p>
         <p>YouTube</p>
       </div>

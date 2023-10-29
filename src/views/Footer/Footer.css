@@ -8,7 +8,6 @@
     align-items: center;
     line-height: 2;
     padding: 100px;
-    padding-top: 0px;
   }
   
   .footer-section {
@@ -36,3 +35,28 @@
     margin-left: 10px;
   }
   
+
+  @media (max-width: 480px) {
+    .footer-container {
+        flex-direction: column; /* Stack the sections on top of each other */
+        align-items: flex-start;
+        padding: 100px 20px 20px 20px;
+    }
+
+    .footer-section {
+        flex: 100%; /* Take up the full width on mobile */
+        text-align: left; /* Center the content within each section */
+        padding: 20px 0; /* Adjust padding for mobile for more spacing */
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .icon-button {
+        margin-top: 10px;
+        margin-left: 0; /* Reset the left margin on mobile */
+    }
+}
