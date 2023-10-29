@@ -6,8 +6,11 @@ const HeroSection = () => {
   return (
     <div className='section-container'> 
     <div className="hero-section">
-      <HeroTitle />
-      <HeroDescription />
+        <div className='hero-content-section'>
+        <HeroTitle />
+        <HeroDescription />
+        <button className="explore-button">EXPLORE ACADEMY</button>
+      </div>
       <HeroImage />
     </div>
     </div>
@@ -25,8 +28,6 @@ const HeroDescription = () => {
     <p className="hero-description">
       DIVE INTO THE WORLD OF GOLF MASTERY AND CHALLENGE THE CONVENTIONAL NOTION OF "SWING PERFECTION" AT
       OUR GOLF PP TEAM ACADEMY. EMBRACE THE NUANCES OF A GOLFER’S JOURNEY AND TRANSFORM YOUR GAME.
-      <br />
-      <button className="explore-button">EXPLORE ACADEMY</button>
     </p>
   );
 };
