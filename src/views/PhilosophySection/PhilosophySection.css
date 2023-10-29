@@ -1,0 +1,116 @@
+/* Main CSS reset to make sure there's no margin or padding by default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.philosophy-container {
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 100px;
+    position: relative;
+    width: 100%;
+    background-color: black; 
+}
+
+
+/* Philosophy Section */
+.philosophy-section {   
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 40px;
+    height: min-content;
+    justify-content: flex-start;
+    max-width: 1000px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Philosophy Header */
+.philosophy-header {
+    width: 100%;
+    height: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow: visible;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Spline Sans Mono", monospace;
+    color: #6ede8a;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* Philosophy Content */
+.philosophy-content {
+    width: 100%;
+    height: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 600px;
+    overflow: visible;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Unbounded", "Unbounded Placeholder", sans-serif;
+    color: #b7efc5;
+    font-size: 30px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+/* Existing CSS... */
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  
+    .philosophy-container {
+      padding: 50px; /* reduce the padding */
+    }
+  
+    .philosophy-header {
+      font-size: 14px; /* reduce the font size */
+    }
+  
+    .philosophy-content {
+      font-size: 24px; /* reduce the font size */
+      max-width: 100%; /* let the content use full width */
+    }
+  }
+  
+  /* Media query for mobile */
+  @media (max-width: 480px) {
+    
+    .philosophy-container {
+      padding: 30px; /* further reduce the padding for mobile */
+    }
+  
+    .philosophy-header {
+      font-size: 12px; /* even smaller font size for mobile */
+    }
+  
+    .philosophy-content {
+      font-size: 20px; /* even smaller font size for mobile */
+    }
+  }
+  

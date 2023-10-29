@@ -1,0 +1,55 @@
+.section {
+    background-color: #b7efc5;
+}
+
+.container {
+    background-color: #b7efc5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh; /* Adjust this as per your requirement */
+    padding: 100px;
+    position: relative;
+    width: 100%;
+}
+
+/* Adjustments for mobile responsiveness */
+@media (max-width: 768px) {
+    .join-now-container {
+        padding: 50px 20px;  /* Reduced padding for mobile */
+    }
+}
+
+
+.title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    font-family: "Unbounded", "Unbounded Placeholder", sans-serif;
+    color: #000000;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.description {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Spline Sans Mono", monospace;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.5;
+    text-align: center;
+    width: 400px;
+}
+
+.button {
+    background-color: #1a7431;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-family: monospace;
+}
