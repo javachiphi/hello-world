@@ -9,19 +9,19 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-section">
-        <h6>Explore</h6>
+        <h5>Explore</h5>
         <p>About</p>
         <p>Courses</p>
         <p>Resources</p>
       </div>
       <div className="footer-section">
-        <h6>Connect</h6>
+        <h5>Connect</h5>
         <p>Facebook</p>
         <p>Instagram</p>
         <p>YouTube</p>
       </div>
       <div className="footer-section">
-        <h6>Support</h6>
+        <h5>Support</h5>
         <p>FAQ</p>
         <p>Contact</p>
         <p>Terms</p>
