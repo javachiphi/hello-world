@@ -17,8 +17,6 @@ const HeroDescription = () => {
 };
 
 const photo = process.env.PUBLIC_URL + '/golfer.png';
-const video = process.env.PUBLIC_URL + '/golf-video.mp4';
-
 
 const HeroSection = () => {
   const videoRef = useRef(null);
